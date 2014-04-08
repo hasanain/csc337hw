@@ -1,0 +1,257 @@
+/*Authors: Hasanain Jamal and Rachel Gladysz
+
+The following is for the index page.*/
+
+header{
+	width: 320px;
+	height: 100px;
+	padding-left: 20px;
+}
+body{
+	font-family: sans-serif;
+}
+.error {
+	color: red;
+	font-size: 10px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+nav ul{
+	background: #708090;
+	list-style:none;
+	padding-right: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 20px;
+}
+nav ul li{
+	float:left;
+	width:150px;
+	position: relative;
+}
+nav li ul{
+	left: -9999px;
+	position:absolute;
+	display: block;
+}
+nav li:hover ul{
+	background: #9E9D9C;
+	height: 75px;
+	left:auto;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.logo{
+	background: black;
+	width: 100%;
+}
+.logo img{
+	left: 400px;
+	width: 960px;
+	margin: 0 auto;
+	display: block;
+}
+footer{
+	margin: 0 auto;
+	text-align: center;
+	background: black;
+	color: white;
+	clear: both;
+	width: 100%;
+	min-width: 320px;
+}
+
+/*The section below is for the blog page*/
+
+.container .blog_list h2{
+	font-weight: bold;
+	font-size: 200%;
+	text-align: left;
+	font-family: sans-serif;
+}
+
+.image{
+	float:left;
+}
+.blog_post{
+	width: 100%;
+	float: left;
+}
+
+h3{
+	font-weight: bold;
+	line-height: 10px;
+}
+
+p{
+	line-height: 10px;
+}
+
+
+/*The section below is for the article page*/
+
+.article p{
+	line-height: 150%;
+}
+
+.article_image img{
+	border: solid red 1px;
+}
+.article_image{
+	float:right;
+	padding: 10px;
+}
+
+
+/*This section below is for the comment page*/
+
+#form_article{
+	padding-bottom: 0px;
+}
+
+textarea {
+	width: 300px;
+	height: 200px;
+}
+#submit{
+	padding: 10px;
+	font-size: 150%;
+	background-color: #32CD32;
+	border:solid green 1px;
+	margin: 10px;
+}
+
+/*The section below is for the about page*/
+
+.about p{
+	line-height: 150%;
+}
+
+
+/*The section below is for the shipping page*/
+
+
+#submit_button{
+	background-color: #32CD32;
+	padding: 10px 30px;
+	font-size: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.ship_form_container {
+	padding-bottom: 20px;		
+
+}
+form.shipping_form {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 320px;
+	min-width: 300px;
+}
+.shipping_kind {
+	padding-left: 80px;
+
+}
+
+
+
+/*The section below is for the product page*/
+
+.product p{
+	line-height: 150%;
+}
+
+.product_image img{
+	border: solid red 1px;
+}
+.product_image{
+	float:right;
+	padding: 10px;
+}
+#add_cart{
+	float:right;
+	clear: both;
+	width: 33%;
+	height: 50px;
+	padding: 20px;
+	padding-bottom: 25px;
+}
+#add_cart_legend{
+	background-color: green;
+	font-size: 15px;
+	border: solid black 1px;
+	padding: 5px;
+}
+#quant{
+	float:left;
+}
+#quantity{
+	float:left;
+	width: 50px;
+}
+#add{
+	width: 100px;
+}
+#add_cart fieldset{
+	background-color: #32CD32;
+}
+
+
+/*The section below is for the products page*/
+
+.products h2{
+	float:left;
+}
+.products_img{
+	width: 300px;
+	height: 320px;
+	display: inline-block;
+	text-align: center;
+	border: solid black 1px;
+}
+.products_provided{
+	float: left;
+	padding: 10px;
+}
+
+/*This section below is for the total page and cart page*/
+
+.items {
+	width: 100%;
+	
+}
+.items *{
+	border-style: none;
+}
+.table_header td{
+	border-bottom: solid black 1px;
+}
+.table_dark{
+	background-color: #98FB98;
+
+}
+.blank_row
+{
+	height: 20px !important;
+}
+.total{
+	text-align: center;
+}
+.continue {
+	padding: 10px 30px;
+	font-size: 150%;
+	background-color: #32CD32;
+	width: 90px;
+	display: block;
+	margin: 10px auto;
+	border: solid green 1px;
+}
+
